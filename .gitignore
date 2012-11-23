@@ -1,3 +1,7 @@
+# Goutte
+.directory
+.idea/*
+
 # Bootstrap
 app/bootstrap*
 
