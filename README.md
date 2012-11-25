@@ -11,10 +11,10 @@ Switches
 See [wikipedia definition](http://en.wikipedia.org/wiki/Switch)
 
 
-Momentary Switch
-------------
+Biased Switch
+-------------
 
-A switch that sends an unary signal, like an IR detector
+A switch that sends an unary signal, like an IR detector or a push-button
 
 
 Toggle Switch
