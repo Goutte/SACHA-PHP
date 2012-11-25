@@ -1,4 +1,4 @@
-Feature: Controlling the lights with switches
+Feature: Controlling the lights with unary switches
   In order to see when it is dark
   As a Person
   I need to be able to turn the lights on and off
