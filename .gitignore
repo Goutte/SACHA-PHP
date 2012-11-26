@@ -3,7 +3,7 @@
 .idea/*
 
 # Muss
-#.DS_Store
+.DS_Store
 
 # Bootstrap
 app/bootstrap*
