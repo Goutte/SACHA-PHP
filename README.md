@@ -14,7 +14,7 @@ See [wikipedia definition](http://en.wikipedia.org/wiki/Switch)
 Biased Switch
 -------------
 
-A switch that sends an unary signal, like an IR detector or a push-button
+A switch that sends an unary signal, like an motion detector, distance detector or a push-button
 
 
 Toggle Switch
