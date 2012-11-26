@@ -2,6 +2,9 @@
 .directory
 .idea/*
 
+# Muss
+.DS_Store
+
 # Bootstrap
 app/bootstrap*
 
