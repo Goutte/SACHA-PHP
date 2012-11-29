@@ -25,3 +25,7 @@ Feature: Configure the lights
     When I click on the button Link
     Then I should receive a positive feedback
     And L01 and T01 should be linked
+    
+  Scenario: All light off
+  	Given nobody is in the house
+  	Then ALL the lights should turn off
