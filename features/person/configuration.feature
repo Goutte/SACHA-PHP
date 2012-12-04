@@ -26,6 +26,9 @@ Feature: Configure the lights
     Then I should receive a positive feedback
     And L01 and T01 should be linked
     
-  Scenario: All light off
-  	Given nobody is in the house
-  	Then ALL the lights should turn off
+  Scenario: Nobody is here
+  	Given I am the only person here
+    When I leave
+  	Then all the lights should turn off
+
+  # Scenario: Somebody comes back
