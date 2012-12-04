@@ -23,3 +23,22 @@ Toggle Switch
 The most common of switches, sending a binary signal, like the ON/OFF switch
 
 
+
+
+Thoughts on what the Arduino should manage
+==========================================
+
+Lights
+------
+
+PHP sends standard POWER signal : Power Device <ID> to <N>%
+
+- if lamp <ID> is "digital",  if N is >= 50 then power ON else power OFF
+- if lamp <ID> is "analogic", if N is 0 then power OFF else power ON the lamp to N% intensity
+
+I think the arduino should make sure the different hardware for the same logical Device (in our case, the Lamp)
+gets their own (hardware-related) custom signal and that it that cannot break the hardware.
+
+I can make sure that N ranges into [0-100], but I think the arduino should too,
+to avoid (edge) cases where the message gets corrupted (by a physical factor, a hardware "bug") along the way
+
