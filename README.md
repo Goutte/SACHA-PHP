@@ -32,7 +32,9 @@ Communication
 -------------
 
 User -> Serveur    : PHP,...
+
 Serveur -> Arduino : USB (Serial)
+
 Arduino -> Modules : RS485 (wired) ou RF433 (wireless)  
 
 Lights
